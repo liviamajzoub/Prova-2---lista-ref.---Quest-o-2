@@ -30,13 +30,13 @@ int main()
 
     int resultado;
 
-    printf("Digite o valor de a: ");
+    printf("Digite o valor de A: ");
     scanf("%f", &a);
 
-    printf("Digite o valor b: ");
+    printf("Digite o valor B: ");
     scanf("%f", &b);
 
-    printf("Digite o valor c: ");
+    printf("Digite o valor C: ");
     scanf("%f", &c);
 
     resultado = calcula_raizes(a, b, c, &x1, &x2);
